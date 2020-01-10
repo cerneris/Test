@@ -984,6 +984,74 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 225,
+                "y": 244
+              },
+              "angle": 0,
+              "id": "639bbb9a-a8cb-4c3b-8ef9-591f8c52b8c5",
+              "z": 33,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "WaterSensor"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "639bbb9a-a8cb-4c3b-8ef9-591f8c52b8c5"
+              },
+              "target": {
+                "id": "9dfa1d72-1d89-4b04-a95d-9febbd22583a"
+              },
+              "vertices": [
+                {
+                  "x": 447,
+                  "y": 264
+                }
+              ],
+              "id": "653a8af1-8061-4686-96d4-c3ba739d6f29",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4876755429920065,
+                    "offset": 1.7907869072493563
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Water amount",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 34,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
