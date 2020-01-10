@@ -318,7 +318,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "RFID Data",
+                      "text": "RFID data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -576,7 +576,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 19",
+                      "text": "Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -610,7 +610,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 20",
+                      "text": "Data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -644,7 +644,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 21",
+                      "text": "Data to be used for\noptimized program\nselection",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -721,7 +721,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 23",
+                      "text": "Weight data",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -729,6 +729,246 @@
                 }
               ],
               "z": 24,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 793,
+                "y": 281
+              },
+              "angle": 0,
+              "id": "03a8a6c1-51a4-43c9-bf02-834ccf27b45c",
+              "z": 25,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Motor"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 663,
+                "y": 379
+              },
+              "angle": 0,
+              "id": "b2ae4752-8df1-425a-af97-f0dd25034778",
+              "z": 26,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Waterpump"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1025,
+                "y": 70
+              },
+              "angle": 0,
+              "id": "f0950133-5ff7-444d-9c22-6a3c03bca065",
+              "z": 27,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "DoorSensor"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "9dfa1d72-1d89-4b04-a95d-9febbd22583a"
+              },
+              "target": {
+                "id": "03a8a6c1-51a4-43c9-bf02-834ccf27b45c"
+              },
+              "vertices": [],
+              "id": "33b6b3cd-daf5-41a5-82c3-c4b5ffd4592f",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Motor state",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 28,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "9dfa1d72-1d89-4b04-a95d-9febbd22583a"
+              },
+              "target": {
+                "id": "b2ae4752-8df1-425a-af97-f0dd25034778"
+              },
+              "vertices": [],
+              "id": "e2ad3af0-20f8-4408-8a1f-1d1de0852b8d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Pump state",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 29,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "f0950133-5ff7-444d-9c22-6a3c03bca065"
+              },
+              "target": {
+                "id": "9dfa1d72-1d89-4b04-a95d-9febbd22583a"
+              },
+              "vertices": [],
+              "id": "d6c380e1-9a77-4afc-a165-5d7647998f00",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "DoorState",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 30,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1023,
+                "y": 194
+              },
+              "angle": 0,
+              "id": "be148de0-024e-42d6-8b57-92927fbdf1b3",
+              "z": 31,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Temperature sensor"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "be148de0-024e-42d6-8b57-92927fbdf1b3"
+              },
+              "target": {
+                "id": "9dfa1d72-1d89-4b04-a95d-9febbd22583a"
+              },
+              "vertices": [],
+              "id": "886a873b-1ea4-4629-872d-9002cb2e859d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Water temperature",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 32,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
