@@ -350,7 +350,10 @@
               "id": "2acd0c80-cf13-469d-bf10-9271c7cdd12b",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.620404686032264,
+                    "offset": 22.34283066138237
+                  },
                   "attrs": {
                     "text": {
                       "text": "Selection Data",
@@ -414,8 +417,8 @@
                 "y": 346
               },
               "target": {
-                "x": 606,
-                "y": 548
+                "x": 685,
+                "y": 649
               },
               "vertices": [],
               "id": "08411a17-01b0-40a7-8c2c-c714ef70cda0",
@@ -804,8 +807,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1025,
-                "y": 70
+                "x": 934,
+                "y": 97
               },
               "angle": 0,
               "id": "f0950133-5ff7-444d-9c22-6a3c03bca065",
@@ -816,7 +819,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "DoorSensor"
+                  "text": "Sensors"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -907,7 +910,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "DoorState",
+                      "text": "SensorData",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -915,134 +918,6 @@
                 }
               ],
               "z": 30,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1023,
-                "y": 194
-              },
-              "angle": 0,
-              "id": "be148de0-024e-42d6-8b57-92927fbdf1b3",
-              "z": 31,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "TemperatureSensor"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "be148de0-024e-42d6-8b57-92927fbdf1b3"
-              },
-              "target": {
-                "id": "9dfa1d72-1d89-4b04-a95d-9febbd22583a"
-              },
-              "vertices": [],
-              "id": "886a873b-1ea4-4629-872d-9002cb2e859d",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "Water temperature",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 32,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 225,
-                "y": 244
-              },
-              "angle": 0,
-              "id": "639bbb9a-a8cb-4c3b-8ef9-591f8c52b8c5",
-              "z": 33,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "WaterSensor"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "639bbb9a-a8cb-4c3b-8ef9-591f8c52b8c5"
-              },
-              "target": {
-                "id": "9dfa1d72-1d89-4b04-a95d-9febbd22583a"
-              },
-              "vertices": [
-                {
-                  "x": 447,
-                  "y": 264
-                }
-              ],
-              "id": "653a8af1-8061-4686-96d4-c3ba739d6f29",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.4876755429920065,
-                    "offset": 1.7907869072493563
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "Water amount",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 34,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
