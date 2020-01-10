@@ -752,8 +752,8 @@
                 "height": 80
               },
               "position": {
-                "x": 793,
-                "y": 281
+                "x": 840,
+                "y": 301
               },
               "angle": 0,
               "id": "03a8a6c1-51a4-43c9-bf02-834ccf27b45c",
@@ -778,8 +778,8 @@
                 "height": 80
               },
               "position": {
-                "x": 663,
-                "y": 379
+                "x": 662,
+                "y": 424
               },
               "angle": 0,
               "id": "b2ae4752-8df1-425a-af97-f0dd25034778",
@@ -839,7 +839,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Motor state",
+                      "text": "Motor state and\nspeed",
                       "font-weight": "400",
                       "font-size": "small"
                     }
