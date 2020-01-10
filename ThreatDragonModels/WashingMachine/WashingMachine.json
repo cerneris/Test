@@ -110,7 +110,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "RFID reader"
+                  "text": "Washing machine RFID\nreader"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -444,7 +444,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Program and clothes\nhistory"
+                  "text": "Program and clothes\nhistory and data"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -496,7 +496,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Inserted clothes weight\nscale"
+                  "text": "Washing machine clothes\nweight scale"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -931,7 +931,7 @@
           ]
         },
         "size": {
-          "height": 1784,
+          "height": 1835.1304931640625,
           "width": 3798
         }
       },
