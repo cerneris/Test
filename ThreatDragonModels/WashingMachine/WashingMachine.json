@@ -124,8 +124,8 @@
                 "height": 80
               },
               "position": {
-                "x": 693,
-                "y": 22
+                "x": 691,
+                "y": 1
               },
               "angle": 0,
               "id": "cc543941-237e-45b1-918d-bfe84776e57c",
@@ -410,8 +410,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 300,
-                "y": 371
+                "x": 225,
+                "y": 346
               },
               "target": {
                 "x": 606,
@@ -944,7 +944,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Temperature sensor"
+                  "text": "TemperatureSensor"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
