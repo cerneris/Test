@@ -1720,8 +1720,8 @@
                 "height": 100
               },
               "position": {
-                "x": 921,
-                "y": 963
+                "x": 898,
+                "y": 961
               },
               "angle": 0,
               "id": "fe5d70b8-f9e8-41b8-a23f-d7da12903e17",
@@ -2977,28 +2977,36 @@
               }
             },
             {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "ef576a69-0f9a-4335-91c9-28412c637752"
               },
-              "position": {
-                "x": 1013,
-                "y": 492
+              "target": {
+                "id": "ca5df4a8-0c95-4c64-84a0-e9cf83b21875"
               },
-              "angle": 0,
-              "id": "eb072e25-7487-4992-98f8-00944f334777",
-              "z": 74,
+              "vertices": [],
+              "id": "73f9d5a7-7c3f-4aa2-9abc-fa24a75d9ee9",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 59",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 75,
               "hasOpenThreats": false,
               "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
                 },
-                "text": {
-                  "text": "Connect to\ncloud"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
