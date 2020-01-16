@@ -660,8 +660,8 @@
                 "height": 100
               },
               "position": {
-                "x": 771,
-                "y": 297
+                "x": 773,
+                "y": 313
               },
               "angle": 0,
               "id": "cf7e9e24-cc2b-4815-8f8c-e3c964ef23db",
@@ -900,6 +900,66 @@
                 }
               ],
               "z": 29,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 485,
+                "y": 12
+              },
+              "angle": 0,
+              "id": "11e5d454-fbc5-4d28-8493-2bc3e066be44",
+              "z": 30,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Set value"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "11e5d454-fbc5-4d28-8493-2bc3e066be44"
+              },
+              "target": {
+                "id": "932160b6-f618-4385-b9cf-b8de8556ba15"
+              },
+              "vertices": [],
+              "id": "247b086f-5af6-458a-be22-7d0f077ac5d4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 31,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
