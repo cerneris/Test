@@ -672,7 +672,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "CMD parser"
+                  "text": "Manage TCP/IP\ncommands"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
